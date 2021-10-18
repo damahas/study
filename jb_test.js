@@ -1,4 +1,4 @@
-const $ = new API("jb-lhtj");
+const $ = new Env();
 
 function runSign() {
   $.http.post({
