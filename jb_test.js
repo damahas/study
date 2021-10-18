@@ -15,8 +15,8 @@ function runSign() {
             'Accept-Language': 'zh-cn'
         },
         body: `{"data":{"projectId":"B79E72A1-2A5C-E311-8D79-0050568001F7"}}`
-  },res=>{
-    console.log(res);
+  },(err, resp, data)=>{
+    console.log(JSON.stringify(data));
   });
 }
 
