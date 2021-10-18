@@ -16,8 +16,12 @@ function runSign() {
         },
         body: `{"data":{"projectId":"B79E72A1-2A5C-E311-8D79-0050568001F7"}}`
   },(err, resp, data)=>{
+    if (err) {
+          console.log(`\n API查询请求失败 ‼️‼️`)
+          throw new Error(err);
+        }
     data = JSON.parse(data);
-    console.log(`${data.data.nickName} 当前龙珠数量： ${data.data.lzBalance} 个`);
+    console.log(`${data.data.nickName} 当前龙珠数量： ${data.data.lzBalance} 个 \n`);
   });
 }
 
