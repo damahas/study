@@ -1,6 +1,32 @@
 const $ = new Env('龙湖天街');
 
 function runSign() {
+    $.post({
+         url: 'https://longzhu.longfor.com/proxy/lmarketing-task-api-prod/openapi/task/v1/signs/clock',
+        headers: {
+            'Host': 'c2-openapi.longfor.com',
+            'Content-Type': 'application/json',
+            'encryptByDesData': '26C88FDA04935E8DA8413B44C0D2309A9B6070569D479A73E7D2F2B548DDB73E',
+            'X-Gaia-Api-Key': '5241a44c-bc94-4c5f-abb6-0d3aa995012e',
+            'X-Tingyun': 'c=B|rqDGhl2DzyY',
+            'token': '556019ffc2bc422cb942e70d8a3ba502',
+            'userkey': 'oAjtH44Fde3CISRD05z5_no4jqyg',
+            'User-Agent': 'Mozilla/5.0 (iPhone; CPU iPhone OS 14_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/8.0.14(0x18000e2d) NetType/WIFI Language/zh_CN',
+            'Accept-Language': 'zh-cn'
+        },
+        body: `{"channel":"C2","token":"556019ffc2bc422cb942e70d8a3ba502","bu_code":"C20400","task_id":"28"}`
+  },(err, resp, data)=>{
+    if (err) {
+          console.log(`\n API查询请求失败 ‼️‼️`)
+          throw new Error(err);
+    }
+    console.log(data);
+    data = JSON.parse(data);
+    runInfo();
+  });
+}
+
+function runInfo() {
   $.post({
          url: 'https://c2-openapi.longfor.com/riyuehu-miniapp-service-prod/ryh/user/info',
         headers: {
@@ -21,7 +47,7 @@ function runSign() {
           throw new Error(err);
         }
     data = JSON.parse(data);
-    console.log(`${data.data.nickName} 当前龙珠数量： ${data.data.lzBalance} 个 \n`);
+    console.log(`${data.data.nickName} 当前龙珠数量：${data.data.lzBalance} 个 \n`);
   });
 }
 
