@@ -7,10 +7,12 @@ function runSign() {
             'Host': 'c2-openapi.longfor.com',
             'Content-Type': 'application/json',
             'encryptByDesData': '26C88FDA04935E8DA8413B44C0D2309A9B6070569D479A73E7D2F2B548DDB73E',
-            'X-Gaia-Api-Key': '5241a44c-bc94-4c5f-abb6-0d3aa995012e',
-            'X-Tingyun': 'c=B|rqDGhl2DzyY',
-            'token': '556019ffc2bc422cb942e70d8a3ba502',
-            'userkey': 'oAjtH44Fde3CISRD05z5_no4jqyg',
+            'X-LF-Bu-Code': 'C20400',
+            'X-LF-DXRisk-Token': '616af37fFKxTO1025nfBB6JhUjGKOGxjSlKhEsn1',
+            'EagleEye-TraceID': '79c7667e641a484f9af236b1ea472350',
+            'X-LF-Channel': 'C2',
+            'X-LF-UserToken': '556019ffc2bc422cb942e70d8a3ba502',
+            'X-GAIA-API-KEY': 'caed5282-9019-418d-8854-3c34d02e0b4e'
             'User-Agent': 'Mozilla/5.0 (iPhone; CPU iPhone OS 14_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/8.0.14(0x18000e2d) NetType/WIFI Language/zh_CN',
             'Accept-Language': 'zh-cn'
         },
