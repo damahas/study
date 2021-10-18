@@ -1,7 +1,7 @@
 const $ = new Env('龙湖天街');
 
 function runSign() {
-  $.http.post({
+  $.post({
          url: 'https://c2-openapi.longfor.com/riyuehu-miniapp-service-prod/ryh/user/info',
         headers: {
             'Host': 'c2-openapi.longfor.com',
