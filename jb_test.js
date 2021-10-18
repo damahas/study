@@ -16,7 +16,7 @@ function runSign() {
         },
         body: `{"data":{"projectId":"B79E72A1-2A5C-E311-8D79-0050568001F7"}}`
   },(err, resp, data)=>{
-    console.log(JSON.stringify(data));
+    console.log(`${data.data.nickName} 当前龙珠数量： ${data.data.lzBalance} 个`);
   });
 }
 
