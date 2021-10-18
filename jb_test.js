@@ -12,7 +12,7 @@ function runSign() {
             'EagleEye-TraceID': '79c7667e641a484f9af236b1ea472350',
             'X-LF-Channel': 'C2',
             'X-LF-UserToken': '556019ffc2bc422cb942e70d8a3ba502',
-            'X-GAIA-API-KEY': 'caed5282-9019-418d-8854-3c34d02e0b4e'
+            'X-GAIA-API-KEY': 'caed5282-9019-418d-8854-3c34d02e0b4e',
             'User-Agent': 'Mozilla/5.0 (iPhone; CPU iPhone OS 14_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/8.0.14(0x18000e2d) NetType/WIFI Language/zh_CN',
             'Accept-Language': 'zh-cn'
         },
