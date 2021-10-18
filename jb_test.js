@@ -1,3 +1,5 @@
+const $ = new API("jb-lhtj");
+
 function runSign() {
   $.http.post({
          url: 'https://c2-openapi.longfor.com/riyuehu-miniapp-service-prod/ryh/user/info',
