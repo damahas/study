@@ -6,7 +6,6 @@ function runSign() {
         headers: {
             'Host': 'c2-openapi.longfor.com',
             'Content-Type': 'application/json',
-            'encryptByDesData': '26C88FDA04935E8DA8413B44C0D2309A9B6070569D479A73E7D2F2B548DDB73E',
             'X-LF-Bu-Code': 'C20400',
             'X-LF-DXRisk-Token': '616af37fFKxTO1025nfBB6JhUjGKOGxjSlKhEsn1',
             'EagleEye-TraceID': '79c7667e641a484f9af236b1ea472350',
