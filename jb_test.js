@@ -15,3 +15,5 @@ function runSign() {
     console.log(res);
   });
 }
+
+runSign();
