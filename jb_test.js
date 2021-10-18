@@ -7,6 +7,8 @@ function runSign() {
             'Host': 'c2-openapi.longfor.com',
             'Content-Type': 'application/json',
             'encryptByDesData': '26C88FDA04935E8DA8413B44C0D2309A9B6070569D479A73E7D2F2B548DDB73E',
+            'X-Gaia-Api-Key': '5241a44c-bc94-4c5f-abb6-0d3aa995012e',
+            'X-Tingyun': 'c=B|rqDGhl2DzyY',
             'token': '556019ffc2bc422cb942e70d8a3ba502',
             'userkey': 'oAjtH44Fde3CISRD05z5_no4jqyg',
             'User-Agent': 'Mozilla/5.0 (iPhone; CPU iPhone OS 14_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/8.0.14(0x18000e2d) NetType/WIFI Language/zh_CN',
